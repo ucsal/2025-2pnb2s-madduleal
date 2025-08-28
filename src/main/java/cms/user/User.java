@@ -22,4 +22,5 @@ public abstract class User {
     public boolean checkPassword(String candidate) {
         return Objects.equals(this.password, candidate);
     }
+
 }
